@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9659d8f80ff68953599feb329b74b634 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9659d8f80ff68953599feb329b74b634" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9659d8f80ff68953599feb329b74b634 = L.map(
+                "map_9659d8f80ff68953599feb329b74b634",
+                {
+                    center: [50.44554931636363, 30.515425252727276],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ef2dfb4b852788591528d92655b2f0f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7ef2dfb4b852788591528d92655b2f0f.addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+            var circle_marker_daa3319053b019c153389a7f7dec93d8 = L.circleMarker(
+                [50.4337067, 30.5066824],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_13de12ac80000fc66198265fe3095cd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cceb3499693202cf8985a0ff26ab39c2 = $(`<div id="html_cceb3499693202cf8985a0ff26ab39c2" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Squad<br>         <b>Адреса:</b> Korolenkivska street 3<br>         <hr>         <b>Кав'ярень поруч:</b> 21<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_13de12ac80000fc66198265fe3095cd9.setContent(html_cceb3499693202cf8985a0ff26ab39c2);
+            
+        
+
+        circle_marker_daa3319053b019c153389a7f7dec93d8.bindPopup(popup_13de12ac80000fc66198265fe3095cd9)
+        ;
+
+        
+    
+    
+            var circle_marker_7ac07442736a48a08c6d12122bc5eb1b = L.circleMarker(
+                [50.4456072, 30.5127356],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_c7733dfa272eba41f9411b99230256a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5975e7473225bfcb8fa05a7bd54e30b8 = $(`<div id="html_5975e7473225bfcb8fa05a7bd54e30b8" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Plarium<br>         <b>Адреса:</b> вул. Богдана Хмельницького, 52<br>         <hr>         <b>Кав'ярень поруч:</b> 41<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_c7733dfa272eba41f9411b99230256a3.setContent(html_5975e7473225bfcb8fa05a7bd54e30b8);
+            
+        
+
+        circle_marker_7ac07442736a48a08c6d12122bc5eb1b.bindPopup(popup_c7733dfa272eba41f9411b99230256a3)
+        ;
+
+        
+    
+    
+            var circle_marker_8f07218d4e8da7da57ac0f2e05c5eb5d = L.circleMarker(
+                [50.4592045, 30.3586906],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_68cd28af6ca2bf25b513acf0b499d225 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22ae32d990d61c3e9ce88f8d7da0c6c0 = $(`<div id="html_22ae32d990d61c3e9ce88f8d7da0c6c0" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Simcorp<br>         <b>Адреса:</b> вул. Василя Стуса 35-37<br>         <hr>         <b>Кав'ярень поруч:</b> 6<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_68cd28af6ca2bf25b513acf0b499d225.setContent(html_22ae32d990d61c3e9ce88f8d7da0c6c0);
+            
+        
+
+        circle_marker_8f07218d4e8da7da57ac0f2e05c5eb5d.bindPopup(popup_68cd28af6ca2bf25b513acf0b499d225)
+        ;
+
+        
+    
+    
+            var circle_marker_e4f2da5a8ccddc514253939de00997c6 = L.circleMarker(
+                [50.4490487, 30.649354],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_32b598c2cf5f2b017743b59b22dbf8d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ee6b59534d45a01ed32114394453c61d = $(`<div id="html_ee6b59534d45a01ed32114394453c61d" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Fozzy<br>         <b>Адреса:</b> вул. Бутлерова, 1<br>         <hr>         <b>Кав'ярень поруч:</b> 1<br>         <b>ІТ-кластер №:</b> 2         </div>`)[0];
+                popup_32b598c2cf5f2b017743b59b22dbf8d0.setContent(html_ee6b59534d45a01ed32114394453c61d);
+            
+        
+
+        circle_marker_e4f2da5a8ccddc514253939de00997c6.bindPopup(popup_32b598c2cf5f2b017743b59b22dbf8d0)
+        ;
+
+        
+    
+    
+            var circle_marker_4b48573ff6bdb63528d8c2a4ad4f4e7a = L.circleMarker(
+                [50.4424578, 30.6322701],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_454c8c46e4850b05ecbec07eaa3a536d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0576e212254952a3d7dc13a5746091d8 = $(`<div id="html_0576e212254952a3d7dc13a5746091d8" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Fozzy<br>         <b>Адреса:</b> вул. Сосюри, 6<br>         <hr>         <b>Кав'ярень поруч:</b> 7<br>         <b>ІТ-кластер №:</b> 2         </div>`)[0];
+                popup_454c8c46e4850b05ecbec07eaa3a536d.setContent(html_0576e212254952a3d7dc13a5746091d8);
+            
+        
+
+        circle_marker_4b48573ff6bdb63528d8c2a4ad4f4e7a.bindPopup(popup_454c8c46e4850b05ecbec07eaa3a536d)
+        ;
+
+        
+    
+    
+            var circle_marker_41c0dda8b9db88df90d1098f1468f48b = L.circleMarker(
+                [50.4287145, 30.5935458],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_74a6377d96512e3498caab24c16bc839 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22c61e26661635cda85ab2ad96e263cd = $(`<div id="html_22c61e26661635cda85ab2ad96e263cd" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Fozzy<br>         <b>Адреса:</b> проспект Павла Тичини, 1в<br>         <hr>         <b>Кав'ярень поруч:</b> 7<br>         <b>ІТ-кластер №:</b> 2         </div>`)[0];
+                popup_74a6377d96512e3498caab24c16bc839.setContent(html_22c61e26661635cda85ab2ad96e263cd);
+            
+        
+
+        circle_marker_41c0dda8b9db88df90d1098f1468f48b.bindPopup(popup_74a6377d96512e3498caab24c16bc839)
+        ;
+
+        
+    
+    
+            var circle_marker_450645c44eec91d9d320eb2a536693e6 = L.circleMarker(
+                [50.4376278, 30.5273499],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_819151e3275cf84eb8082ee31a4d1cde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68df8a4b306fe726838cd4f37ecdded9 = $(`<div id="html_68df8a4b306fe726838cd4f37ecdded9" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Airslate<br>         <b>Адреса:</b> вулиця Мечникова, 2<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_819151e3275cf84eb8082ee31a4d1cde.setContent(html_68df8a4b306fe726838cd4f37ecdded9);
+            
+        
+
+        circle_marker_450645c44eec91d9d320eb2a536693e6.bindPopup(popup_819151e3275cf84eb8082ee31a4d1cde)
+        ;
+
+        
+    
+    
+            var circle_marker_14590f782d2af4f25ff915c8d6fd1506 = L.circleMarker(
+                [50.4438062, 30.4500415],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_1c9c453574599e4fffda2a254c9aa8a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e8c16ee9ce7e52f7c74d970962cf858 = $(`<div id="html_8e8c16ee9ce7e52f7c74d970962cf858" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Infopulse<br>         <b>Адреса:</b> вул. Польова, 24<br>         <hr>         <b>Кав'ярень поруч:</b> 4<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_1c9c453574599e4fffda2a254c9aa8a7.setContent(html_8e8c16ee9ce7e52f7c74d970962cf858);
+            
+        
+
+        circle_marker_14590f782d2af4f25ff915c8d6fd1506.bindPopup(popup_1c9c453574599e4fffda2a254c9aa8a7)
+        ;
+
+        
+    
+    
+            var circle_marker_97602cd9f5ebfa096f5f5319f8525b4e = L.circleMarker(
+                [50.4256694, 30.420068],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_0a0409010b14e335afab3a9a13c93473 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_853d49b33251327d2293ba4aa5627d54 = $(`<div id="html_853d49b33251327d2293ba4aa5627d54" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Innovecs<br>         <b>Адреса:</b> бул. Вацлава Гавела, 6Б<br>         <hr>         <b>Кав'ярень поруч:</b> 0<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_0a0409010b14e335afab3a9a13c93473.setContent(html_853d49b33251327d2293ba4aa5627d54);
+            
+        
+
+        circle_marker_97602cd9f5ebfa096f5f5319f8525b4e.bindPopup(popup_0a0409010b14e335afab3a9a13c93473)
+        ;
+
+        
+    
+    
+            var circle_marker_ec67991ed9cc1f3d97ed2697cdbd44a2 = L.circleMarker(
+                [50.4386982, 30.5231713],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_9043c12a4cfab366cdb13c43bfa5d172 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d0ed86d4d8cd082213a84a8c32f3ca59 = $(`<div id="html_d0ed86d4d8cd082213a84a8c32f3ca59" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Eleks<br>         <b>Адреса:</b> Спортивна площа, 1a<br>         <hr>         <b>Кав'ярень поруч:</b> 31<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_9043c12a4cfab366cdb13c43bfa5d172.setContent(html_d0ed86d4d8cd082213a84a8c32f3ca59);
+            
+        
+
+        circle_marker_ec67991ed9cc1f3d97ed2697cdbd44a2.bindPopup(popup_9043c12a4cfab366cdb13c43bfa5d172)
+        ;
+
+        
+    
+    
+            var circle_marker_4685a1aaa3dcfb4b49f28485832af8e0 = L.circleMarker(
+                [50.4596939, 30.5217932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_8101d90f90ac462802b4be2504d99d98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d716b2390cea9319fcc049ca3f49c1b1 = $(`<div id="html_d716b2390cea9319fcc049ca3f49c1b1" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Intellectsoft<br>         <b>Адреса:</b> Igorivska 1/8<br>         <hr>         <b>Кав'ярень поруч:</b> 27<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_8101d90f90ac462802b4be2504d99d98.setContent(html_d716b2390cea9319fcc049ca3f49c1b1);
+            
+        
+
+        circle_marker_4685a1aaa3dcfb4b49f28485832af8e0.bindPopup(popup_8101d90f90ac462802b4be2504d99d98)
+        ;
+
+        
+    
+    
+            var circle_marker_9a26049b29b2a2270c8dd3ee86d3c89b = L.circleMarker(
+                [50.430492, 30.549732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_45eecac5523d36f03c7b2c1ba7571950 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b92f1f93da1767690c5336dd370a3ba = $(`<div id="html_2b92f1f93da1767690c5336dd370a3ba" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Vodafone Ukraine<br>         <b>Адреса:</b> вул. Лейпцизька, 15<br>         <hr>         <b>Кав'ярень поруч:</b> 7<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_45eecac5523d36f03c7b2c1ba7571950.setContent(html_2b92f1f93da1767690c5336dd370a3ba);
+            
+        
+
+        circle_marker_9a26049b29b2a2270c8dd3ee86d3c89b.bindPopup(popup_45eecac5523d36f03c7b2c1ba7571950)
+        ;
+
+        
+    
+    
+            var circle_marker_076d9305a7de0a58fef4f506f1393f5a = L.circleMarker(
+                [50.4386982, 30.5231713],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_88047d4d6cde653145cf42edcdb2e2c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39aea985ca5f134794c6a4bcca0f9d31 = $(`<div id="html_39aea985ca5f134794c6a4bcca0f9d31" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Gismart com<br>         <b>Адреса:</b> Площа Спортивна, 1а<br>         <hr>         <b>Кав'ярень поруч:</b> 31<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_88047d4d6cde653145cf42edcdb2e2c8.setContent(html_39aea985ca5f134794c6a4bcca0f9d31);
+            
+        
+
+        circle_marker_076d9305a7de0a58fef4f506f1393f5a.bindPopup(popup_88047d4d6cde653145cf42edcdb2e2c8)
+        ;
+
+        
+    
+    
+            var circle_marker_d3634af55c495da71901ef568cb0a7da = L.circleMarker(
+                [50.4543384, 30.5130546],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_7a3da9d3e83d0a4538ab9f982adb1a0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8b07c81d38e49d77e2cbc74f5d81b87 = $(`<div id="html_d8b07c81d38e49d77e2cbc74f5d81b87" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Adtelligent<br>         <b>Адреса:</b> Стрілецька 4/6<br>         <hr>         <b>Кав'ярень поруч:</b> 35<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_7a3da9d3e83d0a4538ab9f982adb1a0b.setContent(html_d8b07c81d38e49d77e2cbc74f5d81b87);
+            
+        
+
+        circle_marker_d3634af55c495da71901ef568cb0a7da.bindPopup(popup_7a3da9d3e83d0a4538ab9f982adb1a0b)
+        ;
+
+        
+    
+    
+            var circle_marker_a6e88b8733ef0fa884cc570493548f4c = L.circleMarker(
+                [50.3934337, 30.4784439],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_fc4b7372b65341a176404b920db11408 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19b2d3fff3bbf87ad3380b106ced6eef = $(`<div id="html_19b2d3fff3bbf87ad3380b106ced6eef" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Velitech<br>         <b>Адреса:</b> 8 Mykhaila Maksymovycha Street, Kyiv<br>         <hr>         <b>Кав'ярень поруч:</b> 12<br>         <b>ІТ-кластер №:</b> 4         </div>`)[0];
+                popup_fc4b7372b65341a176404b920db11408.setContent(html_19b2d3fff3bbf87ad3380b106ced6eef);
+            
+        
+
+        circle_marker_a6e88b8733ef0fa884cc570493548f4c.bindPopup(popup_fc4b7372b65341a176404b920db11408)
+        ;
+
+        
+    
+    
+            var circle_marker_bac041a4078ca04ea626a27de6524086 = L.circleMarker(
+                [50.4611027, 30.4626866],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_bf852eddc3a7cb830732597de7e549bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e04411b58fde6b1411d553698432193 = $(`<div id="html_2e04411b58fde6b1411d553698432193" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Ubisoft<br>         <b>Адреса:</b> вул. Зоологічна 5/1<br>         <hr>         <b>Кав'ярень поруч:</b> 6<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_bf852eddc3a7cb830732597de7e549bb.setContent(html_2e04411b58fde6b1411d553698432193);
+            
+        
+
+        circle_marker_bac041a4078ca04ea626a27de6524086.bindPopup(popup_bf852eddc3a7cb830732597de7e549bb)
+        ;
+
+        
+    
+    
+            var circle_marker_3d66d4a08ae73745dcda425e377860ae = L.circleMarker(
+                [50.4287145, 30.5935458],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_f0e711babb469d4c593655400e379c68 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce31e6cf455d110396cc152095e14019 = $(`<div id="html_ce31e6cf455d110396cc152095e14019" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Trinetix<br>         <b>Адреса:</b> Pavla Tychyny Ave, 1-V<br>         <hr>         <b>Кав'ярень поруч:</b> 7<br>         <b>ІТ-кластер №:</b> 2         </div>`)[0];
+                popup_f0e711babb469d4c593655400e379c68.setContent(html_ce31e6cf455d110396cc152095e14019);
+            
+        
+
+        circle_marker_3d66d4a08ae73745dcda425e377860ae.bindPopup(popup_f0e711babb469d4c593655400e379c68)
+        ;
+
+        
+    
+    
+            var circle_marker_c02d4d722828b2b1e3ac10f6024c7cf7 = L.circleMarker(
+                [50.4846046, 30.4744932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_d30f1364d86cfda18530a97817b36d2b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b25f7ab19ec3fed86360c3ead9bae87e = $(`<div id="html_b25f7ab19ec3fed86360c3ead9bae87e" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Skelar<br>         <b>Адреса:</b> вул. Кирилівська 40А<br>         <hr>         <b>Кав'ярень поруч:</b> 13<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_d30f1364d86cfda18530a97817b36d2b.setContent(html_b25f7ab19ec3fed86360c3ead9bae87e);
+            
+        
+
+        circle_marker_c02d4d722828b2b1e3ac10f6024c7cf7.bindPopup(popup_d30f1364d86cfda18530a97817b36d2b)
+        ;
+
+        
+    
+    
+            var circle_marker_e1628308c3b0e556016188fe8e87de30 = L.circleMarker(
+                [50.4729254, 30.5015476],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_cedad24da4df397e232c0c36ab3c9bf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99c2fd8c549c7278c92ca3e962f97c2c = $(`<div id="html_99c2fd8c549c7278c92ca3e962f97c2c" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Skelar<br>         <b>Адреса:</b> вул. Костянтинівська 71<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_cedad24da4df397e232c0c36ab3c9bf1.setContent(html_99c2fd8c549c7278c92ca3e962f97c2c);
+            
+        
+
+        circle_marker_e1628308c3b0e556016188fe8e87de30.bindPopup(popup_cedad24da4df397e232c0c36ab3c9bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_19c6ffe2bd3eb2e4e9cd03db2718a31b = L.circleMarker(
+                [50.4353522, 30.5441839],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_c71233ea124d86eb6a32141de1ed177e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfa1961edd9a6824f6822e0eb79f7660 = $(`<div id="html_bfa1961edd9a6824f6822e0eb79f7660" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Autodoc<br>         <b>Адреса:</b>  вул. Князів Острозьких 32/2 <br>         <hr>         <b>Кав'ярень поруч:</b> 17<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_c71233ea124d86eb6a32141de1ed177e.setContent(html_bfa1961edd9a6824f6822e0eb79f7660);
+            
+        
+
+        circle_marker_19c6ffe2bd3eb2e4e9cd03db2718a31b.bindPopup(popup_c71233ea124d86eb6a32141de1ed177e)
+        ;
+
+        
+    
+    
+            var circle_marker_230c446032943c93163918d6598c2b0c = L.circleMarker(
+                [50.4677676, 30.506629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_29926a994bf8aba1594345275bb72ede = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d68334f2dd97b4729f24cc3a5b5353c = $(`<div id="html_0d68334f2dd97b4729f24cc3a5b5353c" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Intellias<br>         <b>Адреса:</b> вулиця Кирилівська, 15/1<br>         <hr>         <b>Кав'ярень поруч:</b> 30<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_29926a994bf8aba1594345275bb72ede.setContent(html_0d68334f2dd97b4729f24cc3a5b5353c);
+            
+        
+
+        circle_marker_230c446032943c93163918d6598c2b0c.bindPopup(popup_29926a994bf8aba1594345275bb72ede)
+        ;
+
+        
+    
+    
+            var circle_marker_f7ee79cfb6ed267fc65df0c28aae0c88 = L.circleMarker(
+                [50.4741385, 30.5060369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_a54862066b2213c6588dbcb410f219eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15333b240441e213c94ed604181a692d = $(`<div id="html_15333b240441e213c94ed604181a692d" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Solidgate<br>         <b>Адреса:</b> вул. Оленівська, 23<br>         <hr>         <b>Кав'ярень поруч:</b> 20<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_a54862066b2213c6588dbcb410f219eb.setContent(html_15333b240441e213c94ed604181a692d);
+            
+        
+
+        circle_marker_f7ee79cfb6ed267fc65df0c28aae0c88.bindPopup(popup_a54862066b2213c6588dbcb410f219eb)
+        ;
+
+        
+    
+    
+            var circle_marker_45e227ea11565ae97d4ad6e77ccb7b53 = L.circleMarker(
+                [50.4717369, 30.5196004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_657598ba8c4cc5323254c2e0c4359654 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c83e5fc0e6573fcac2d0d65c9acabb0b = $(`<div id="html_c83e5fc0e6573fcac2d0d65c9acabb0b" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Betterme<br>         <b>Адреса:</b> Yaroslavska St, 58<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_657598ba8c4cc5323254c2e0c4359654.setContent(html_c83e5fc0e6573fcac2d0d65c9acabb0b);
+            
+        
+
+        circle_marker_45e227ea11565ae97d4ad6e77ccb7b53.bindPopup(popup_657598ba8c4cc5323254c2e0c4359654)
+        ;
+
+        
+    
+    
+            var circle_marker_8928f54975eff8595fec691399908e6b = L.circleMarker(
+                [50.4307376, 30.542402],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_56e2855dc5d75acd538554f1152c955e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9f50f1feab40b10de21a554359881da = $(`<div id="html_b9f50f1feab40b10de21a554359881da" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Raiffeisen<br>         <b>Адреса:</b> вул. Генерала Алмазова 4А<br>         <hr>         <b>Кав'ярень поруч:</b> 16<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_56e2855dc5d75acd538554f1152c955e.setContent(html_b9f50f1feab40b10de21a554359881da);
+            
+        
+
+        circle_marker_8928f54975eff8595fec691399908e6b.bindPopup(popup_56e2855dc5d75acd538554f1152c955e)
+        ;
+
+        
+    
+    
+            var circle_marker_7e954277f61c5466d85c0f7364043de0 = L.circleMarker(
+                [50.4469624, 30.5070028],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_af83977ed22a3742acd4420c69c56cd3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5d5acdb58e0d7597ac416c81986d5fb = $(`<div id="html_c5d5acdb58e0d7597ac416c81986d5fb" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Raiffeisen<br>         <b>Адреса:</b> вул. Пирогова, 7-7б<br>         <hr>         <b>Кав'ярень поруч:</b> 38<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_af83977ed22a3742acd4420c69c56cd3.setContent(html_c5d5acdb58e0d7597ac416c81986d5fb);
+            
+        
+
+        circle_marker_7e954277f61c5466d85c0f7364043de0.bindPopup(popup_af83977ed22a3742acd4420c69c56cd3)
+        ;
+
+        
+    
+    
+            var circle_marker_6650eb7934c0d55179d9655ebd1177b0 = L.circleMarker(
+                [50.4717369, 30.5196004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_a07ad1077ab8b3a8c27f20c89003083b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ccd87a7233a8975b2f34718b99f2b327 = $(`<div id="html_ccd87a7233a8975b2f34718b99f2b327" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Raiffeisen<br>         <b>Адреса:</b> вул. Ярославська, 58<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_a07ad1077ab8b3a8c27f20c89003083b.setContent(html_ccd87a7233a8975b2f34718b99f2b327);
+            
+        
+
+        circle_marker_6650eb7934c0d55179d9655ebd1177b0.bindPopup(popup_a07ad1077ab8b3a8c27f20c89003083b)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2ec4f5cde1d336ec8fe4dc7b986756 = L.circleMarker(
+                [50.4711535, 30.5018684],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_64189e96d7bd33ca9d363efd98a3be72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e26ea107a232ff525256e339ef69114 = $(`<div id="html_6e26ea107a232ff525256e339ef69114" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Headway 1<br>         <b>Адреса:</b> вул. Кирилівська 40<br>         <hr>         <b>Кав'ярень поруч:</b> 18<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_64189e96d7bd33ca9d363efd98a3be72.setContent(html_6e26ea107a232ff525256e339ef69114);
+            
+        
+
+        circle_marker_1f2ec4f5cde1d336ec8fe4dc7b986756.bindPopup(popup_64189e96d7bd33ca9d363efd98a3be72)
+        ;
+
+        
+    
+    
+            var circle_marker_9607441ce79e16427da94b32fe7f811f = L.circleMarker(
+                [50.4666735, 30.5135182],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_d26a8f22d77635b57b26d06d84791ad9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d896a75083272433541bbb56cd95a1f7 = $(`<div id="html_d896a75083272433541bbb56cd95a1f7" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Pin Up Tech<br>         <b>Адреса:</b> м. Контрактова Площа<br>         <hr>         <b>Кав'ярень поруч:</b> 54<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_d26a8f22d77635b57b26d06d84791ad9.setContent(html_d896a75083272433541bbb56cd95a1f7);
+            
+        
+
+        circle_marker_9607441ce79e16427da94b32fe7f811f.bindPopup(popup_d26a8f22d77635b57b26d06d84791ad9)
+        ;
+
+        
+    
+    
+            var circle_marker_518e1c06eee9fb07b1319b7fedb8bc5a = L.circleMarker(
+                [50.4717369, 30.5196004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_f1b54b2a408345a8c1cb1cfa529a5b09 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69939038d2d6a7e2af3116798bfb795e = $(`<div id="html_69939038d2d6a7e2af3116798bfb795e" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Amo<br>         <b>Адреса:</b> вул. Ярославська, 58<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_f1b54b2a408345a8c1cb1cfa529a5b09.setContent(html_69939038d2d6a7e2af3116798bfb795e);
+            
+        
+
+        circle_marker_518e1c06eee9fb07b1319b7fedb8bc5a.bindPopup(popup_f1b54b2a408345a8c1cb1cfa529a5b09)
+        ;
+
+        
+    
+    
+            var circle_marker_e251b614f094a7c5cc073311f923f2be = L.circleMarker(
+                [50.4680134, 30.5065402],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_3785afd63e9202a6f3954884488f59fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8550e454ab7b57bf413dbafdef1df9c2 = $(`<div id="html_8550e454ab7b57bf413dbafdef1df9c2" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Amo<br>         <b>Адреса:</b> Кирилівська 15<br>         <hr>         <b>Кав'ярень поруч:</b> 32<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_3785afd63e9202a6f3954884488f59fd.setContent(html_8550e454ab7b57bf413dbafdef1df9c2);
+            
+        
+
+        circle_marker_e251b614f094a7c5cc073311f923f2be.bindPopup(popup_3785afd63e9202a6f3954884488f59fd)
+        ;
+
+        
+    
+    
+            var circle_marker_1c024253640f6bafa25ba93140a316d9 = L.circleMarker(
+                [50.4353522, 30.5441839],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_d5b2bd9f0967cab3d0e9179c4200ca12 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b26c8ff293153117790e84df5e32d48 = $(`<div id="html_7b26c8ff293153117790e84df5e32d48" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Kpmg<br>         <b>Адреса:</b> вул. Московска, 32/2<br>         <hr>         <b>Кав'ярень поруч:</b> 17<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_d5b2bd9f0967cab3d0e9179c4200ca12.setContent(html_7b26c8ff293153117790e84df5e32d48);
+            
+        
+
+        circle_marker_1c024253640f6bafa25ba93140a316d9.bindPopup(popup_d5b2bd9f0967cab3d0e9179c4200ca12)
+        ;
+
+        
+    
+    
+            var circle_marker_99518fdbe9bb5c454bedb187bb6da409 = L.circleMarker(
+                [50.3410127, 30.5499684],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_9f548d0933755da6c2c7aa738c7b7cf8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a7499e0a03fae12cd4083fc2aad90c1 = $(`<div id="html_8a7499e0a03fae12cd4083fc2aad90c1" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Nova Digital<br>         <b>Адреса:</b> Столичне Шосе, 103<br>         <hr>         <b>Кав'ярень поруч:</b> 0<br>         <b>ІТ-кластер №:</b> 4         </div>`)[0];
+                popup_9f548d0933755da6c2c7aa738c7b7cf8.setContent(html_8a7499e0a03fae12cd4083fc2aad90c1);
+            
+        
+
+        circle_marker_99518fdbe9bb5c454bedb187bb6da409.bindPopup(popup_9f548d0933755da6c2c7aa738c7b7cf8)
+        ;
+
+        
+    
+    
+            var circle_marker_fd3aa0b200e37c1231d008842de5b883 = L.circleMarker(
+                [50.4711535, 30.5018684],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_bd61c6da6bf4e736b8ff340755ac8901 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f42f1e4c229debab19687a1d390d033c = $(`<div id="html_f42f1e4c229debab19687a1d390d033c" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Obrio<br>         <b>Адреса:</b> Kyrylivska Street, 40<br>         <hr>         <b>Кав'ярень поруч:</b> 18<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_bd61c6da6bf4e736b8ff340755ac8901.setContent(html_f42f1e4c229debab19687a1d390d033c);
+            
+        
+
+        circle_marker_fd3aa0b200e37c1231d008842de5b883.bindPopup(popup_bd61c6da6bf4e736b8ff340755ac8901)
+        ;
+
+        
+    
+    
+            var circle_marker_9c10bfd2b6e32f7134349b4794f39ff6 = L.circleMarker(
+                [50.4607749, 30.5094649],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_f636c133a4a7670d961ef0531400b578 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_395c3ac80e1d124777d7cde438d1d60f = $(`<div id="html_395c3ac80e1d124777d7cde438d1d60f" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Smartyads<br>         <b>Адреса:</b> вул. Кожум'яцька<br>         <hr>         <b>Кав'ярень поруч:</b> 16<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_f636c133a4a7670d961ef0531400b578.setContent(html_395c3ac80e1d124777d7cde438d1d60f);
+            
+        
+
+        circle_marker_9c10bfd2b6e32f7134349b4794f39ff6.bindPopup(popup_f636c133a4a7670d961ef0531400b578)
+        ;
+
+        
+    
+    
+            var circle_marker_b8284d03ff1b849b731ad6a63685628b = L.circleMarker(
+                [50.4396537, 30.5027266],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_26895e8afc10c47db0522b374d4c69d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_57cc04ae1373aab80f76a731c16fa540 = $(`<div id="html_57cc04ae1373aab80f76a731c16fa540" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Wix<br>         <b>Адреса:</b> Saksahanskoho St, 70 A<br>         <hr>         <b>Кав'ярень поруч:</b> 17<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_26895e8afc10c47db0522b374d4c69d5.setContent(html_57cc04ae1373aab80f76a731c16fa540);
+            
+        
+
+        circle_marker_b8284d03ff1b849b731ad6a63685628b.bindPopup(popup_26895e8afc10c47db0522b374d4c69d5)
+        ;
+
+        
+    
+    
+            var circle_marker_d0653a0c54b76ace8e1b3b31c0b62fb9 = L.circleMarker(
+                [50.4343187, 30.5132249],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_9a98209de70ba3c83e53f2dae6f4e3c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b80269fa33f13846ff1bf4002d6b50ea = $(`<div id="html_b80269fa33f13846ff1bf4002d6b50ea" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Boosta<br>         <b>Адреса:</b> вул. Антоновича, 40<br>         <hr>         <b>Кав'ярень поруч:</b> 38<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_9a98209de70ba3c83e53f2dae6f4e3c2.setContent(html_b80269fa33f13846ff1bf4002d6b50ea);
+            
+        
+
+        circle_marker_d0653a0c54b76ace8e1b3b31c0b62fb9.bindPopup(popup_9a98209de70ba3c83e53f2dae6f4e3c2)
+        ;
+
+        
+    
+    
+            var circle_marker_4b9dca0fe339375fbe21eee24720a80e = L.circleMarker(
+                [50.3822786, 30.4782984],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_bdd1e75e58473f1608606fd394fe0fb5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70f2b8773db385ea938fb32278927ca5 = $(`<div id="html_70f2b8773db385ea938fb32278927ca5" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Newxel<br>         <b>Адреса:</b> Holosiivskyi prospekt, 132<br>         <hr>         <b>Кав'ярень поруч:</b> 10<br>         <b>ІТ-кластер №:</b> 4         </div>`)[0];
+                popup_bdd1e75e58473f1608606fd394fe0fb5.setContent(html_70f2b8773db385ea938fb32278927ca5);
+            
+        
+
+        circle_marker_4b9dca0fe339375fbe21eee24720a80e.bindPopup(popup_bdd1e75e58473f1608606fd394fe0fb5)
+        ;
+
+        
+    
+    
+            var circle_marker_5f2f864676e67da49694743cb8068c4c = L.circleMarker(
+                [50.4346381, 30.5069071],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_853c8e07f6cd33fc97059e7c2c642fe8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0142f4e19046c33872297de1da2a1f74 = $(`<div id="html_0142f4e19046c33872297de1da2a1f74" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Avenga<br>         <b>Адреса:</b> вул. Жилянська, 48<br>         <hr>         <b>Кав'ярень поруч:</b> 25<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_853c8e07f6cd33fc97059e7c2c642fe8.setContent(html_0142f4e19046c33872297de1da2a1f74);
+            
+        
+
+        circle_marker_5f2f864676e67da49694743cb8068c4c.bindPopup(popup_853c8e07f6cd33fc97059e7c2c642fe8)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd7f75664a137fd05d86fda6bb4493c = L.circleMarker(
+                [50.404303, 30.6810159],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_977dff1da2ab9d5339579ea5dddd737b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1074d310b5768e56297bf1be3911549c = $(`<div id="html_1074d310b5768e56297bf1be3911549c" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Evo<br>         <b>Адреса:</b> Харківське Шосе 201/203<br>         <hr>         <b>Кав'ярень поруч:</b> 5<br>         <b>ІТ-кластер №:</b> 2         </div>`)[0];
+                popup_977dff1da2ab9d5339579ea5dddd737b.setContent(html_1074d310b5768e56297bf1be3911549c);
+            
+        
+
+        circle_marker_6bd7f75664a137fd05d86fda6bb4493c.bindPopup(popup_977dff1da2ab9d5339579ea5dddd737b)
+        ;
+
+        
+    
+    
+            var circle_marker_a5ad5273665a2dd2598e3260acf31083 = L.circleMarker(
+                [50.4256035, 30.5602223],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_63ebd0732df77e9fa3281f133b926719 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1533f92f462738b550a34eee40048de = $(`<div id="html_e1533f92f462738b550a34eee40048de" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> It Smartflex<br>         <b>Адреса:</b> вул. Старонаводницкая 4В<br>         <hr>         <b>Кав'ярень поруч:</b> 0<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_63ebd0732df77e9fa3281f133b926719.setContent(html_e1533f92f462738b550a34eee40048de);
+            
+        
+
+        circle_marker_a5ad5273665a2dd2598e3260acf31083.bindPopup(popup_63ebd0732df77e9fa3281f133b926719)
+        ;
+
+        
+    
+    
+            var circle_marker_1e10515afd00d4a4339448fb0a854f8b = L.circleMarker(
+                [50.4391116, 30.5445129],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_9dbdb9b3deb8d61db7f87e37dc4aa40f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e2aa9d832ef35c7c288c6fa1ec26532 = $(`<div id="html_3e2aa9d832ef35c7c288c6fa1ec26532" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Railsware<br>         <b>Адреса:</b> вул. Князів Острозьких 8<br>         <hr>         <b>Кав'ярень поруч:</b> 15<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_9dbdb9b3deb8d61db7f87e37dc4aa40f.setContent(html_3e2aa9d832ef35c7c288c6fa1ec26532);
+            
+        
+
+        circle_marker_1e10515afd00d4a4339448fb0a854f8b.bindPopup(popup_9dbdb9b3deb8d61db7f87e37dc4aa40f)
+        ;
+
+        
+    
+    
+            var circle_marker_df766dfb4dd6cda90d74e858cdff8e24 = L.circleMarker(
+                [50.3941984, 30.5067529],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_0620c7a8d3b3aef3d6948cd435e4ca19 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac3d6e3c88dd813808fab5a8f31b167e = $(`<div id="html_ac3d6e3c88dd813808fab5a8f31b167e" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Spd Technology<br>         <b>Адреса:</b> вул. Красилівська 11<br>         <hr>         <b>Кав'ярень поруч:</b> 14<br>         <b>ІТ-кластер №:</b> 4         </div>`)[0];
+                popup_0620c7a8d3b3aef3d6948cd435e4ca19.setContent(html_ac3d6e3c88dd813808fab5a8f31b167e);
+            
+        
+
+        circle_marker_df766dfb4dd6cda90d74e858cdff8e24.bindPopup(popup_0620c7a8d3b3aef3d6948cd435e4ca19)
+        ;
+
+        
+    
+    
+            var circle_marker_a189dc97c19d35803aa722c80378ecea = L.circleMarker(
+                [50.4327524, 30.5087998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_d67c765efab3884bb0c42f86bee440f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f80849425cd2f7399a397068adf737e = $(`<div id="html_9f80849425cd2f7399a397068adf737e" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Belkins<br>         <b>Адреса:</b> вул. Володимирська, 101<br>         <hr>         <b>Кав'ярень поруч:</b> 25<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_d67c765efab3884bb0c42f86bee440f1.setContent(html_9f80849425cd2f7399a397068adf737e);
+            
+        
+
+        circle_marker_a189dc97c19d35803aa722c80378ecea.bindPopup(popup_d67c765efab3884bb0c42f86bee440f1)
+        ;
+
+        
+    
+    
+            var circle_marker_e2b1f1905483a3137b97c65a69877fe6 = L.circleMarker(
+                [50.4666244, 30.5085199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_70b8c0fd38ecd802c20a0ec5965fd6ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_508ab375e04a7c01d592028c0842e701 = $(`<div id="html_508ab375e04a7c01d592028c0842e701" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Geniusee<br>         <b>Адреса:</b> Ярославський провулок, 4<br>         <hr>         <b>Кав'ярень поруч:</b> 36<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_70b8c0fd38ecd802c20a0ec5965fd6ff.setContent(html_508ab375e04a7c01d592028c0842e701);
+            
+        
+
+        circle_marker_e2b1f1905483a3137b97c65a69877fe6.bindPopup(popup_70b8c0fd38ecd802c20a0ec5965fd6ff)
+        ;
+
+        
+    
+    
+            var circle_marker_50a98ff74737559b11386d609221ab4f = L.circleMarker(
+                [50.4729254, 30.5015476],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_54c97e39bc5adc33ad08f0251a6e4bde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86d90f7bac91c2ce91a6c955ec368c68 = $(`<div id="html_86d90f7bac91c2ce91a6c955ec368c68" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Jooble<br>         <b>Адреса:</b> вул. Костянтинівська 71<br>         <hr>         <b>Кав'ярень поруч:</b> 19<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_54c97e39bc5adc33ad08f0251a6e4bde.setContent(html_86d90f7bac91c2ce91a6c955ec368c68);
+            
+        
+
+        circle_marker_50a98ff74737559b11386d609221ab4f.bindPopup(popup_54c97e39bc5adc33ad08f0251a6e4bde)
+        ;
+
+        
+    
+    
+            var circle_marker_3c072d0fb2c76001a184977f9abadee9 = L.circleMarker(
+                [50.4287558, 30.5164954],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_edfc8a9a441202a670d497c43d355e9b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a30e41aa3c4a15038c9436f2d0d5e287 = $(`<div id="html_a30e41aa3c4a15038c9436f2d0d5e287" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Sensebank<br>         <b>Адреса:</b> м. Київ, вул. Велика Васильківська 100<br>         <hr>         <b>Кав'ярень поруч:</b> 23<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_edfc8a9a441202a670d497c43d355e9b.setContent(html_a30e41aa3c4a15038c9436f2d0d5e287);
+            
+        
+
+        circle_marker_3c072d0fb2c76001a184977f9abadee9.bindPopup(popup_edfc8a9a441202a670d497c43d355e9b)
+        ;
+
+        
+    
+    
+            var circle_marker_8aef1f9e496913e7d108476b3190bc5e = L.circleMarker(
+                [50.4479183, 30.4252675],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_e65dc103f2493a88a445c2a739f4755e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b17c3980076ff301bb27fe6a910a8663 = $(`<div id="html_b17c3980076ff301bb27fe6a910a8663" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> At Oschadbank<br>         <b>Адреса:</b> бульвар Вацлава Гавела 4<br>         <hr>         <b>Кав'ярень поруч:</b> 13<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_e65dc103f2493a88a445c2a739f4755e.setContent(html_b17c3980076ff301bb27fe6a910a8663);
+            
+        
+
+        circle_marker_8aef1f9e496913e7d108476b3190bc5e.bindPopup(popup_e65dc103f2493a88a445c2a739f4755e)
+        ;
+
+        
+    
+    
+            var circle_marker_733352cffcfa4afa05745501a3b400bf = L.circleMarker(
+                [50.4347027, 30.525553],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_d414092e416dff83f89b5467abff48d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af4b774e320e54f561c5ed31547c518c = $(`<div id="html_af4b774e320e54f561c5ed31547c518c" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> At Oschadbank<br>         <b>Адреса:</b> вул. Госпітальна 12Г<br>         <hr>         <b>Кав'ярень поруч:</b> 12<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_d414092e416dff83f89b5467abff48d3.setContent(html_af4b774e320e54f561c5ed31547c518c);
+            
+        
+
+        circle_marker_733352cffcfa4afa05745501a3b400bf.bindPopup(popup_d414092e416dff83f89b5467abff48d3)
+        ;
+
+        
+    
+    
+            var circle_marker_712661e49c60738319421d7084baab78 = L.circleMarker(
+                [50.4590486, 30.5146686],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_ccb978c88fc6c47dac8e409678008a5d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5343f44622472d67c7160ffddbb33423 = $(`<div id="html_5343f44622472d67c7160ffddbb33423" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> At Oschadbank<br>         <b>Адреса:</b> вулиця Воздвиженська, 52-54А<br>         <hr>         <b>Кав'ярень поруч:</b> 27<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_ccb978c88fc6c47dac8e409678008a5d.setContent(html_5343f44622472d67c7160ffddbb33423);
+            
+        
+
+        circle_marker_712661e49c60738319421d7084baab78.bindPopup(popup_ccb978c88fc6c47dac8e409678008a5d)
+        ;
+
+        
+    
+    
+            var circle_marker_562df847c4e57be46ead78887ff7d3d4 = L.circleMarker(
+                [50.4352898, 30.5009591],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_c195166771f0094b98d48433f5601000 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_986fcb5d659c478cf4278384b0a33d88 = $(`<div id="html_986fcb5d659c478cf4278384b0a33d88" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Epam Systems<br>         <b>Адреса:</b> вул. Сім'ї Прахових, 54<br>         <hr>         <b>Кав'ярень поруч:</b> 15<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_c195166771f0094b98d48433f5601000.setContent(html_986fcb5d659c478cf4278384b0a33d88);
+            
+        
+
+        circle_marker_562df847c4e57be46ead78887ff7d3d4.bindPopup(popup_c195166771f0094b98d48433f5601000)
+        ;
+
+        
+    
+    
+            var circle_marker_93bdb1fb87bc78c8bfa6d91706919131 = L.circleMarker(
+                [50.4664178, 30.5081723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_674bb232d319ab5cb5450c663f4f30e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b755c78d0f8718f57962f4beda4858e = $(`<div id="html_4b755c78d0f8718f57962f4beda4858e" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Techmagic<br>         <b>Адреса:</b> Ярославський провулок 1/3<br>         <hr>         <b>Кав'ярень поруч:</b> 34<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_674bb232d319ab5cb5450c663f4f30e9.setContent(html_4b755c78d0f8718f57962f4beda4858e);
+            
+        
+
+        circle_marker_93bdb1fb87bc78c8bfa6d91706919131.bindPopup(popup_674bb232d319ab5cb5450c663f4f30e9)
+        ;
+
+        
+    
+    
+            var circle_marker_3a9e9fe5aa1f87894dc643d8aade7c6a = L.circleMarker(
+                [50.4265197, 30.5216475],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_5a3aaf44701067905c85523beedae418 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c54ee7c4e5a00fe234104b3bbb8b55b8 = $(`<div id="html_c54ee7c4e5a00fe234104b3bbb8b55b8" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Chi Software<br>         <b>Адреса:</b> вул. Василя Тютюнника, 16<br>         <hr>         <b>Кав'ярень поруч:</b> 11<br>         <b>ІТ-кластер №:</b> 1         </div>`)[0];
+                popup_5a3aaf44701067905c85523beedae418.setContent(html_c54ee7c4e5a00fe234104b3bbb8b55b8);
+            
+        
+
+        circle_marker_3a9e9fe5aa1f87894dc643d8aade7c6a.bindPopup(popup_5a3aaf44701067905c85523beedae418)
+        ;
+
+        
+    
+    
+            var circle_marker_19ed802570d2eeefa6c34d04b29d3627 = L.circleMarker(
+                [50.5453567, 30.4891389],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_db9f9c9b1c4315a1a4981d9b715a2d0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_290e390f860488ea5e9909d91389d401 = $(`<div id="html_290e390f860488ea5e9909d91389d401" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Precoro<br>         <b>Адреса:</b> Богатирська, 32<br>         <hr>         <b>Кав'ярень поруч:</b> 0<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_db9f9c9b1c4315a1a4981d9b715a2d0e.setContent(html_290e390f860488ea5e9909d91389d401);
+            
+        
+
+        circle_marker_19ed802570d2eeefa6c34d04b29d3627.bindPopup(popup_db9f9c9b1c4315a1a4981d9b715a2d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_a878c86a3086acbbd85f42be3b8b745c = L.circleMarker(
+                [50.4770608, 30.4953969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_2a654a23b0a812379809366d5ae70cea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4358a060875c3bf06f9cede7c87c7b67 = $(`<div id="html_4358a060875c3bf06f9cede7c87c7b67" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> Expla<br>         <b>Адреса:</b> Костянтинівська, 71C<br>         <hr>         <b>Кав'ярень поруч:</b> 5<br>         <b>ІТ-кластер №:</b> 0         </div>`)[0];
+                popup_2a654a23b0a812379809366d5ae70cea.setContent(html_4358a060875c3bf06f9cede7c87c7b67);
+            
+        
+
+        circle_marker_a878c86a3086acbbd85f42be3b8b745c.bindPopup(popup_2a654a23b0a812379809366d5ae70cea)
+        ;
+
+        
+    
+    
+            var circle_marker_8b7aaefdd5ee962695f693bae7df6a78 = L.circleMarker(
+                [50.4448873, 30.4537158],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_9659d8f80ff68953599feb329b74b634);
+        
+    
+        var popup_f6f8602f6eb137d8fbeccc9e209cb788 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de3eed18319fc9da54fd94b4bc611f55 = $(`<div id="html_de3eed18319fc9da54fd94b4bc611f55" style="width: 100.0%; height: 100.0%;">         <b>Компанія:</b> 3shape<br>         <b>Адреса:</b> Польова, 21<br>         <hr>         <b>Кав'ярень поруч:</b> 6<br>         <b>ІТ-кластер №:</b> 3         </div>`)[0];
+                popup_f6f8602f6eb137d8fbeccc9e209cb788.setContent(html_de3eed18319fc9da54fd94b4bc611f55);
+            
+        
+
+        circle_marker_8b7aaefdd5ee962695f693bae7df6a78.bindPopup(popup_f6f8602f6eb137d8fbeccc9e209cb788)
+        ;
+
+        
+    
+</script>
+</html>
